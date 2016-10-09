@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*print Fahrenheight- celsius table
+/*print Fahrenheit- celsius table
     for fahr = 0, 20, .... 300 */
 
 int main()
@@ -13,7 +13,7 @@ int main()
     upper = 300;    //upper limit
     step = 20;      //step size
 
-    printf("Fahrenhight to Celsius calculator\n");
+    printf("Fahrenheit to Celsius calculator\n");
 
     printf("*F\t*C\n");
     fahr = lower;
@@ -25,7 +25,7 @@ int main()
 
     fahr, celsius = 0;
 
-    printf("\n\n\nCelsius to Fahrenhight calculator\n");
+    printf("\n\n\nCelsius to Fahrenheit calculator\n");
     printf("*C\t*F\n");
     celsius = lower;
     while (celsius <= upper){
