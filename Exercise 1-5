@@ -19,7 +19,7 @@ int main()
         printf("%d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
     }
 
-    printf("\n\n\n Backwards\n");
+    printf("\n\n\nBackwards\n");
     for (fahr = UPPER; fahr >= LOWER; fahr = fahr - STEP){
         printf("%d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
     }
