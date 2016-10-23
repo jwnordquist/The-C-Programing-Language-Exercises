@@ -34,10 +34,8 @@ int getline(char s[], int lim)
     int c, i;
     for(i = 0;(c=getchar()) != EOF && c != '\n'; ++i){
         if(i < lim-2)
-            s[i] = c;
-        else
-            if (i < lim-1)
-                s[i] = '\n';
+            s[i++] = c;
+            s[i] = '\n';
     }
 
 
